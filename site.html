@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "courier", sans-serif;
+  color: "white";
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 1;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("done2.png");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("outrun.jpg");
+  min-height: 100%;
+}
+
+.bgimg-3 {
+  background-image: url("wave2.jpg");
+  min-height: 30%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 33%;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.caption span.border {
+  background-color: "white";
+  color: "white";
+  padding: 18px;
+  font-size: 800%;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 40px "Arial Black", sans-serif;
+  color: #111;
+}
+
+h4 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 40px "Arial Black", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="bgimg-1">
+  <div class="caption">
+    <span class="border">
+
+  </div>
+</div>
+
+<div style="color: #ff0083;background-color:black;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="color: white;text-align:center;">About Me</h3>
+  <p style="font-family:verdana;font-size:20px; center;size:1000px;">My name is Jordan Harris and I am a student at Coderva Regional Highschool. I am working towards an Associates Degree in Computer Science while i am still in highschool. </p>
+</div>
+
+<div class="bgimg-2">
+  <div class="caption">
+    <span class="border" </span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:black;text-align:center;padding:50px 80px;text-align: justify;">
+    <h4 style="color: white;text-align:center;"></h4>
+    <p style="font-family:verdana;font-size:20px; center;size:1000px;color: #ff0083;background-color:black;text-align:left;padding:50px 80px;text-align: justify:"></p>
+  </div>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:black;text-align:center;padding:50px 80px;text-align: justify;">
+    <p>jordan.harris@coderva.org<br>
+    <a href="www.linkedin.com/in/jordan-harris-729204176/">Linkedin<a/></p>
+  </div>
+</div>
+
+<div class="bgimg-1">
+  <div class="caption">
+    <span class="border"></span>
+  </div>
+</div>
+
+</body>
+</html>
